@@ -1,0 +1,17 @@
+ALTER PROCEDURE [dbo].[spInsertPayHeads]
+    @xmlData XML,
+    @Employee_ID INT
+AS
+BEGIN
+    SET NOCOUNT ON
+
+    DECLARE @XmlTable TABLE (Employee_ID INT,PayHeadID INT)
+
+    INSERT INTO @XmlTable (PayHeadID)
+    SELECT PayHeadData.PayHead.value('@id', 'INT') AS PayHeadID
+    FROM @xmlData.nodes('//payhead') AS PayHeadData(PayHead)
+
+    INSERT INTO EmployeePaymentHead (Employee_ID, Payment_Head_ID)
+    SELECT @Employee_ID, PayHeadID
+    FROM @XmlTable
+END
