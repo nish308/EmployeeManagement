@@ -1,0 +1,138 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Style for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table th {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table .actions {
+        display: flex;
+        justify-content: space-between;
+    }
+
+/* Style for buttons */
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Style for table header background */
+.table thead {
+    background-color: #f2f2f2;
+}
+
+/* Style for striped rows */
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Style for hover effect */
+.table tbody tr:hover {
+    background-color: #e9e9e9;
+}
+
+
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Optional: Add additional styling for form validation */
+.validation-error {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+/* Custom CSS for the form */
+.panel-default {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.panel-heading {
+    background-color: #302e2e;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 15px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.control-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.checkbox label {
+    font-weight: normal;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+.btn-default {
+    background-color: #f5f5f5;
+    border-color: #ccc;
+}
+
+    .btn-default:hover {
+        background-color: #e5e5e5;
+        border-color: #bbb;
+    }
