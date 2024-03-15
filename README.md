@@ -1,4 +1,15 @@
-# This is Employee Management CRUD Operation project
-This project is developed using <b>ASP.NET Framework</b>. 
-This project follows <b>MVC Architecture</b>,
-and I've used <b>Stored Procedures</b>.
+# Employee Management CRUD Operations
+
+<hr />
+
+# Abstract:-
+This project focuses on developing a web application for managing employee data.
+The application allows user to perform CRUD (Create, Read, Update, Delete) operations 
+on employee record efficiently. <br/>
+Throught a user-friendly interface, administrators can add new employees, view existing 
+records, update employee information and delete outdated entries.
+
+<hr />
+
+# Technologies Used:-
+C#, ASP.NET, MsSql Server
